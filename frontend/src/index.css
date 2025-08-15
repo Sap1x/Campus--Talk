@@ -1,0 +1,52 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #4f46e5, #9333ea);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.logo-text {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.tagline {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+.google-btn {
+  display: flex;
+  align-items: center;
+  background: white;
+  color: #555;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.google-btn:hover {
+  background: #f0f0f0;
+}
+.google-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.success-check {
+  font-size: 4rem;
+  color: #00ff88;
+  animation: pop 0.5s ease-in-out;
+}
+@keyframes pop {
+  0% { transform: scale(0); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
